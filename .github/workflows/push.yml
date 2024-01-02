@@ -1,0 +1,16 @@
+name: pushing workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v2
+
+      - name: listing files
+        uses: ls -ltrh
