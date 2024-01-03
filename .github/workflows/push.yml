@@ -1,4 +1,4 @@
-name: pushing workflow
+name: pushing workflow in my tab
 on:
   push:
     branches:
