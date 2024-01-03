@@ -1,0 +1,12 @@
+name: this is my workflow
+on: workflow_dispatch
+env: 
+  SCHOOL_NAME: Highschool
+jobs: 
+  build:
+    runs_on: ubuntu-latest
+    env:
+      NAME: Gopal
+    steps: 
+      - name:
+        run: 'echo my school name is $SCHOOL_NAME and mine $NAME'
