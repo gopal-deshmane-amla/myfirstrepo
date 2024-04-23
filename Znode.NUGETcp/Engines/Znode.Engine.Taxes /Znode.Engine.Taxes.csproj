@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Znode10.Engine.Taxes</PackageId>
+    <Title>Znode10.Engine.Taxes</Title>
+    <Version>10.0.0</Version>
+    <Description>Znode10.Engine.Taxes</Description>
+    <Copyright>2024</Copyright>
+	  <AssemblyVersion>10.0.0.0</AssemblyVersion>
+	  <FileVersion>10.0.0.0</FileVersion>
+	  <Authors>Znode</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalara.AvaTax" Version="23.8.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="3.5.8" />
+    <PackageReference Include="NsDepCop" Version="1.6.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Grpc.Net.Client" Version="2.52.0" />
+    <PackageReference Include="protobuf-net" Version="3.2.16" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.10.*" />
+    <PackageReference Include="System.ServiceModel.Federation" Version="4.10.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.10.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.10.*" />
+    <PackageReference Include="Znode10.Libraries.Common.Plugin.Helper" Version="10.0.0-gamma007" />
+    <PackageReference Include="Znode10.Libraries.Framework.Business" Version="10.0.0-gamma007" />
+    <PackageReference Include="Znode10.Libraries.Framework.Business.Data" Version="10.0.0-gamma007" />
+    <PackageReference Include="Znode10.PluginLibraries.RemoteServiceUtility" Version="10.0.0-gamma007" />
+    <PackageReference Include="Znode10.PluginServer.Common.Contracts" Version="10.0.0-gamma007" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Znode.Libraries.Data\Znode.Libraries.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\Znode.Libraries.ECommerce.Entities\Znode.Libraries.ECommerce.Entities.csproj" />
+    <ProjectReference Include="..\..\Libraries\Znode.Libraries.ServiceHelper\Znode.Libraries.ServiceHelper.csproj" />
+    <ProjectReference Include="..\..\PluginManager\Znode.Engine.Plugin.Models\Znode.Engine.Plugin.Models.csproj" />
+    <ProjectReference Include="..\..\Plugins\Taxes\Znode.Libraries.Taxes.Abstract\Znode.Libraries.Taxes.Abstract.csproj" />
+    <ProjectReference Include="..\..\Plugins\Taxes\Znode.Plugin.Taxes.SalesTax\Znode.Plugin.Taxes.SalesTax\Znode.Plugin.Taxes.SalesTax.csproj" />
+    <ProjectReference Include="..\Znode.Engine.Api.Models\Znode.Engine.Api.Models.csproj" />
+    <ProjectReference Include="..\Znode.Engine.Promotions\Znode.Engine.Promotions.csproj" />
+  </ItemGroup>
+
+</Project>
