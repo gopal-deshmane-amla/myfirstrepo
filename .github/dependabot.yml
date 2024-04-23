@@ -9,16 +9,16 @@ updates:
     directory: "Projects/project.ad/"
     schedule:
       interval: "daily"
-      time: 08:00
-    # target-branch: "dev"
+      time: "08:03"
+    target-branch: "main"
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
   - package-ecosystem: nuget
     directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
     schedule:
       interval: "daily"
-      time: 08:00
-    # target-branch: "dev"
+      time: "08:03"
+    target-branch: "main"
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
 version: 2
