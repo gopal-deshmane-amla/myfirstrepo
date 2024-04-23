@@ -9,7 +9,7 @@ updates:
     directory: "Projects/project.ad/"
     schedule:
       interval: "daily"
-      time: "08:03"
+      time: "10.31"
     pull-request-branch-name:
       separator: "-"
     # reviewers:
@@ -18,7 +18,7 @@ updates:
     directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
     schedule:
       interval: "daily"
-      time: "08:03"
+      time: "10.31"
 
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
@@ -27,7 +27,7 @@ updates:
     directory: "statenode/APIGateways/Znode.Engine.APIGateways/"
     schedule:
       interval: "daily"
-      time: "08:03"
+      time: "10.31"
     pull-request-branch-name:
       separator: "-"
     
