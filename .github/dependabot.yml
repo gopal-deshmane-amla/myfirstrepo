@@ -10,7 +10,8 @@ updates:
     schedule:
       interval: "daily"
       time: "08:03"
-    target-branch: "main"
+    pull-request-branch-name:
+      separator: "-"
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
   - package-ecosystem: nuget
@@ -18,11 +19,18 @@ updates:
     schedule:
       interval: "daily"
       time: "08:03"
-    target-branch: "main"
+
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
-version: 2
-updates:
+
+  - package-ecosystem: nuget
+    directory: "statenode/APIGateways/Znode.Engine.APIGateways/"
+    schedule:
+      interval: "daily"
+      time: "08:03"
+    pull-request-branch-name:
+      separator: "-"
+    
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
