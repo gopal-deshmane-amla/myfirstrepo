@@ -5,11 +5,29 @@
 
 version: 2
 updates:
+  - package-ecosystem: nuget
+    directory: "Projects/project.ad/"
+    schedule:
+      interval: "daily"
+      time: 08:00
+    # target-branch: "dev"
+    # reviewers:
+    #   - "MRRSoft/znode-base-maintainers"
+  - package-ecosystem: nuget
+    directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
+    schedule:
+      interval: "daily"
+      time: 08:00
+    # target-branch: "dev"
+    # reviewers:
+    #   - "MRRSoft/znode-base-maintainers"
+version: 2
+updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "17:21"
+      time: "08:00"
     pull-request-branch-name:
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
