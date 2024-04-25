@@ -9,7 +9,7 @@ updates:
     directory: "Projects/project.ad/"
     schedule:
       interval: "daily"
-      time: "11:13"
+      time: "10:20"
     pull-request-branch-name:
       separator: "-"
     # reviewers:
@@ -18,7 +18,7 @@ updates:
     directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
     schedule:
       interval: "daily"
-      time: "11:13"
+      time: "10:20"
 
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
@@ -27,7 +27,7 @@ updates:
     directory: "statenode/APIGateways/Znode.Engine.APIGateways/"
     schedule:
       interval: "daily"
-      time: "11:13"
+      time: "10:20"
     pull-request-branch-name:
       separator: "-"
     
@@ -35,7 +35,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "08:00"
+      time: "10:20"
     pull-request-branch-name:
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
