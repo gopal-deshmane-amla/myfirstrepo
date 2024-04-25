@@ -1,15 +1,10 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
   - package-ecosystem: nuget
     directory: "Projects/project.ad/"
     schedule:
       interval: "daily"
-      time: "10:30"
+      time: "10:20"
     target-branch: main
     pull-request-branch-name:
       separator: "-"
@@ -19,9 +14,7 @@ updates:
     directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
     schedule:
       interval: "daily"
-      time: "10:30"
-    target-branch: main
-
+      time: "10:20"
 
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
@@ -30,21 +23,16 @@ updates:
     directory: "statenode/APIGateways/Znode.Engine.APIGateways/"
     schedule:
       interval: "daily"
-      time: "10:30"
-      
-    target-branch: main
-
+      time: "10:20"
     pull-request-branch-name:
       separator: "-"
     
-  - package-ecosystem: nuget # See documentation for possible values
+  - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "10:30"
+      time: "10:20"
     pull-request-branch-name:
-    target-branch: main
-
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
