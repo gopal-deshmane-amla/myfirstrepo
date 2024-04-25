@@ -10,6 +10,7 @@ updates:
     schedule:
       interval: "daily"
       time: "10:20"
+    target-branch: main
     pull-request-branch-name:
       separator: "-"
     # reviewers:
@@ -19,6 +20,8 @@ updates:
     schedule:
       interval: "daily"
       time: "10:20"
+    target-branch: main
+
 
     # reviewers:
     #   - "MRRSoft/znode-base-maintainers"
@@ -28,6 +31,9 @@ updates:
     schedule:
       interval: "daily"
       time: "10:20"
+      
+    target-branch: main
+
     pull-request-branch-name:
       separator: "-"
     
@@ -37,6 +43,8 @@ updates:
       interval: "daily"
       time: "10:20"
     pull-request-branch-name:
+    target-branch: main
+
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
