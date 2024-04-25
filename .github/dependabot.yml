@@ -9,7 +9,7 @@ updates:
     directory: "Projects/project.ad/"
     schedule:
       interval: "daily"
-      time: "10:20"
+      time: "10:30"
     target-branch: main
     pull-request-branch-name:
       separator: "-"
@@ -19,7 +19,7 @@ updates:
     directory: "Znode.NUGETcp/Engines/Znode.Engine.Taxes/"
     schedule:
       interval: "daily"
-      time: "10:20"
+      time: "10:30"
     target-branch: main
 
 
@@ -30,18 +30,18 @@ updates:
     directory: "statenode/APIGateways/Znode.Engine.APIGateways/"
     schedule:
       interval: "daily"
-      time: "10:20"
+      time: "10:30"
       
     target-branch: main
 
     pull-request-branch-name:
       separator: "-"
     
-  - package-ecosystem: "nuget" # See documentation for possible values
+  - package-ecosystem: nuget # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "10:20"
+      time: "10:30"
     pull-request-branch-name:
     target-branch: main
 
